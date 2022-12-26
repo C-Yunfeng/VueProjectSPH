@@ -45,8 +45,10 @@
 export default {
   name: "Header",
   methods:{
+    // 编程式导航
     goSearch(){
       this.$router.push('/search')
+      console.log('goSearch...')
     }
   }
 }

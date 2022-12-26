@@ -25,8 +25,10 @@ VueRouter.prototype.push = function (location, resolve, reject) {
     if (resolve && reject) {
         //代表真:代表着两个形参接受参数【箭头函数】
         originPush.call(this, location, resolve, reject);
+        console.log('传参push...')
     } else {
         originPush.call(this, location, () => { }, () => { });
+        console.log('不传参push...')
     }
 }
 

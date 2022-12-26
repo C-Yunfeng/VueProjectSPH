@@ -17,3 +17,4 @@
 - [ ] export default命令
 - [ ] select表单如何优化? 初始化提示?
 - [ ] 熟悉element-ui组件
+- [ ] store中state/mutations/actions等是写到export default里面还是外面？
